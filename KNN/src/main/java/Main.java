@@ -90,8 +90,6 @@ public class Main {
             double temp = scanner.nextDouble();
             input.add(i,temp);
         } // Storing our input to calculate its class
-        System.out.println("Dostum son satirda bosluk var bu yuzden son satiri siliyorum. Bu kisimda son satiri siliyorum.");
-        csv.remove(csv.size()-1);
         System.out.println("\n Enter your K parameter");
         int K;
         K=scanner.nextInt();
